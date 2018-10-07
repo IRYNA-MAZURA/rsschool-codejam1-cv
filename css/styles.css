@@ -88,4 +88,16 @@
     margin-top: 5px;
 }
 
+.main-section__list {
+    list-style-type: none;
+}
+
+.main-section__list-item {
+    margin-top: 5px;
+}
+
+.main-section__link {
+    color: black;
+    text-decoration: none;
+}
 
