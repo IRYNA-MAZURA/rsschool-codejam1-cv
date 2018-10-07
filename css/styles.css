@@ -56,7 +56,36 @@
     flex-direction: column;
 }
 
+.main {
+    background-color: rgb(255, 255, 240);
+    color: black;
+    top: 0;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    font-family: Arial;
+}
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
 
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.main-section__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.main-section__paragraph {
+    margin-top: 10px;
+}
 
 
