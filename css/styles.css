@@ -1,0 +1,62 @@
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.inner-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.header {
+    background-color: rgb(245,245,220);
+    padding: 10px 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    color: rgb(233, 150, 122);
+    font-family: fantasy;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__image-block {
+    background: url("../img/Mazura_Iryna.jpg") no-repeat;
+    height: 205px;
+    width: 135px;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.header__information-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__information-block__person {
+    font-size: 30px;
+}
+
+.header__information-block__contacts {
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
